@@ -1,0 +1,42 @@
+/* 따로 카톡으로 보내줘 */
+section, header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+h2.title-area {
+  margin: 5rem 0;
+  font-size: 3rem;
+}
+#newProduct img {
+  border-radius: 50%;
+  width: 80%;
+}
+#reviews .reviewImg {
+  width: 100%;
+  height: 55vh;
+  border-radius: 3rem;
+  background-image: url(../img/seo/seoBanner.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+}
+#newProdInfo .newProdCir {
+  width: 60vw;
+  height: 60vw;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+@media (min-width: 768px){
+  #newProdInfo .newProdCir {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+#newEvent {
+  background-image: url(../img/seo/seoBanner.jpg);
+  background-position: center;
+  background-size: cover;
+}

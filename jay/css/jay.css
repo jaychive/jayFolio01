@@ -1,0 +1,82 @@
+section, header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+h2.title-area {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+#newEvent {
+  background-image: url(../img/pics/green2.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+#newEvent::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.7);
+}
+#newEvent h1, #newEvent p, #newEvent p + div {
+  z-index: 999;
+}
+
+#newProduct img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+#brandStory .bringLogo {
+  width: 40rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  #brandStory .bringLogo {
+    width: 65rem;
+    margin: 0;
+  }
+}
+
+#reviews img {
+  border-radius: 3rem;
+}
+
+#newProdInfo .newProdCir {
+  width: 80vw;
+  height: 80vw;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 6px dotted #1b5b2c;
+}
+@media (min-width: 768px) {
+  #newProdInfo .newProdCir {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+#event1 img {
+  border-radius: 3rem;
+}
+
+#products .swiper {
+  height: max-content;
+}
+#products .swiper-button-next, #products .swiper-button-prev {
+  color: #1b5b2c;
+}
+#products .swiper-pagination-bullet-active {
+  background-color: #1b5b2c;
+}
+
+footer {
+  background-color: #1b5b2c;
+}
